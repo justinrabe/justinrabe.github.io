@@ -1,2 +1,2 @@
 # justinrabe.github.io
-Personal Portfolio,
+Personal Portfolio.
