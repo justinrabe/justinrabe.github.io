@@ -1,11 +1,36 @@
-
 body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+h1 {
+    margin-top:  0;   
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+.top {
     background-color: #bbe1fa;
+    text-align: center;
+    vertical-align: middle;
+    border: solid 10px;
+    padding: 20px;
+    width: 140px;
+    height: 140px;
+    
 }
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 5%;
+.mid {
+    background-color: #3282b8;
+    border: solid 20px;
+    width: 160px;
+    height: 160px;
+    transform: translateX(200px);
 }
+.bot {
+    background-color: #0f4c75;
+    border:solid 10px;
+    width: 180px;
+    height: 180px;
+    transform: translateX(400px);
+}
+
