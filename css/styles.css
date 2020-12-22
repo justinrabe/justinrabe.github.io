@@ -1,21 +1,38 @@
 body {
+    height: 100%;
     text-align: center;
     margin: 0;
+    background-image:url('/images/wishes.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
 }
 h1 {
+    color: #bbe1fa;
     margin: 0 auto 0 auto;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
 p {
+    color: #bbe1fa;
     font-family: 'Montserrat', sans-serif;
 
 }
-.top {
-    background-color: #bbe1fa;
+
+.top-container {
+    background-color: #1b262c;
     position: relative;
     padding-top: 100px;
 }
+.middle-container {
+    background-color: #1b262c;
+}
+.bottom-container {
+    background-color: #bbe1fa;
+}
+
 .cloud-bottom {
     width: 20%;
     position: absolute;
