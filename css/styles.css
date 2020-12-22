@@ -12,15 +12,18 @@ body {
 h1 {
     color: #bbe1fa;
     margin: 0 auto 0 auto;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {
     color: #bbe1fa;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 
 }
 
+.profile {
+    border-radius: 50%;
+}
 .top-container {
     background-color: #1b262c;
     position: relative;
