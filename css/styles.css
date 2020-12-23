@@ -46,7 +46,7 @@ hr {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #041622;
+    background-color: 'black';
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -54,11 +54,11 @@ hr {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #3282b8;
+    color: #bbe1fa;
     display: block;
 }
 .sidebar a:hover {
-    color: #bbe1fa;
+    color: #ffffff;
 }
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
