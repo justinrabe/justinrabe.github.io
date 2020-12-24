@@ -5,6 +5,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     height:100%;
     width:100%;
+    background-color: #1b262c;
 }
 h1 {
     color: #bbe1fa;
@@ -25,7 +26,7 @@ li {
     display:table;
     margin:0px auto 0px auto;
     list-style-type: none;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
 }
 ul {
@@ -35,10 +36,7 @@ ul {
     padding: 30;
     display: flex;
 }
-a {
-    text-decoration: none;
-    color: #0f4c75;
-}
+
 
 .top-container {
     background-color: #1b262c;
@@ -51,8 +49,15 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.navbar-container a {
+    text-decoration: none;
+    color: #0f4c75;
+}
+.navbar-container a:hover {
+    color: #000000;
+}
 .wishes {
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 40%;
+    width: 35%;
 }
