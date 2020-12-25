@@ -1,5 +1,4 @@
 body {
-    height: 100%;
     text-align: center;
     margin: 0;
     /*font-family: 'Source Sans Pro', sans-serif;*/
@@ -9,15 +8,18 @@ body {
 }
 h1 {
     color: #bbe1fa;
+    /*
     margin: 1% auto 1% auto;
     font-size: 4em;
+    */
     
 }
 
 h2 {
     color: #bbe1fa;
+    /*
     font-size: 2em;
-
+    */
 }
 a {
     font-size: 2em;
@@ -40,7 +42,7 @@ a {
 .custom-buttons {
     background-color: #bbe1fa;
     color: #1b262c;
-    width: 8%;
+    /*width: 8%;*/
 }
 .custom-buttons:hover {
     background-color: #3282b8;
