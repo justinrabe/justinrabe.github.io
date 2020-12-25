@@ -52,6 +52,7 @@ ul {
 .navbar-container a {
     text-decoration: none;
     color: #0f4c75;
+    width: 50%;
 }
 .navbar-container a:hover {
     color: #000000;
