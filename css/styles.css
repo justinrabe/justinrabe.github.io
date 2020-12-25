@@ -9,7 +9,7 @@ body {
 }
 h1 {
     color: #bbe1fa;
-    margin: 0 auto 0 auto;
+    margin: 1% auto 1% auto;
     font-size: 4em;
     
 }
@@ -41,7 +41,9 @@ a {
     background-color: #bbe1fa;
     color: #1b262c;
     width: 8%;
-    
+}
+.custom-buttons:hover {
+    background-color: #3282b8;
 }
 /*
 OLD NAVBAR
