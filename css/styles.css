@@ -2,7 +2,7 @@ body {
     height: 100%;
     text-align: center;
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
     height:100%;
     width:100%;
     background-color: #1b262c;
@@ -19,46 +19,43 @@ h2 {
     font-size: 2em;
 
 }
-p {
-    color: #bbe1fa;
-}
-li {
-    display:table;
-    margin:0px auto 0px auto;
-    list-style-type: none;
+a {
     font-size: 2em;
-    font-weight: bold;
+    
 }
-ul {
-    background-color: #bbe1fa;
-    text-align: center;
-    margin: 0;
-    padding: 30;
-    display: flex;
-}
-
-
+.navbar-custom { 
+    background-color: #bbe1fa; 
+} 
 .top-container {
     background-color: #1b262c;
     position: relative;
-    padding-top: 60px;
+    padding-top: 5%;
 }
-.navbar-container {
-    background-color: #bbe1fa;
-    position: relative;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.navbar-container a {
-    text-decoration: none;
-    color: #0f4c75;
-    width: 50%;
-}
-.navbar-container a:hover {
-    color: #000000;
-}
+
 .wishes {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 35%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 30%;
 }
+.custom-buttons {
+    background-color: #bbe1fa;
+    color: #1b262c;
+    width: 8%;
+    
+}
+/*
+OLD NAVBAR
+<nav class = "navbar navbar-expand-lg navbar-custom">
+        <ul class = "navbar-nav mx-auto">
+          <li class = "nav-item">
+            <a class = "nav-link" href="">About</a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href="">Projects</a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href="">Contact</a>
+          </li>
+        </ul>
+      </nav> 
+*/
