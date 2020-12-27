@@ -23,6 +23,7 @@ h2 {
 }
 a {
     font-size: 2em;
+    color: #bbe1fa;
     
 }
 .navbar-custom { 
@@ -39,13 +40,8 @@ a {
     padding-bottom: 3%;
     width: 30%;
 }
-.custom-buttons {
-    background-color: #bbe1fa;
-    color: #1b262c;
-    width: 7%;
-}
-.custom-buttons:hover {
-    background-color: #3282b8;
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #3282b8;
 }
 /*
 OLD NAVBAR
