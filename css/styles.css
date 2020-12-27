@@ -1,61 +1,31 @@
 body {
     text-align: center;
     margin: 0;
-    /*font-family: 'Source Sans Pro', sans-serif;*/
     height:100%;
     width:100%;
     background-color: #1b262c;
+    color: #bbe1fa;
 }
 h1 {
-    color: #bbe1fa;
-  
-    /*margin: 1% auto 1% auto;*/
-    font-size: 4em;
-  
-    
+    font-size: 4vw;
 }
 
 h2 {
-    color: #bbe1fa;
- 
-    font-size: 2em;
-    
+    font-size: 2vw;
 }
 a {
-    font-size: 2em;
     color: #bbe1fa;
+    font-size: 2vw;
     
 }
-.navbar-custom { 
-    background-color: #bbe1fa; 
-} 
 .top-container {
-    background-color: #1b262c;
     position: relative;
     padding-top: 3%;
 }
 
 .wishes {
-    padding-top: 3%;
-    padding-bottom: 3%;
     width: 30%;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #3282b8;
 }
-/*
-OLD NAVBAR
-<nav class = "navbar navbar-expand-lg navbar-custom">
-        <ul class = "navbar-nav mx-auto">
-          <li class = "nav-item">
-            <a class = "nav-link" href="">About</a>
-          </li>
-          <li class = "nav-item">
-            <a class = "nav-link" href="">Projects</a>
-          </li>
-          <li class = "nav-item">
-            <a class = "nav-link" href="">Contact</a>
-          </li>
-        </ul>
-      </nav> 
-*/
