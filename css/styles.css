@@ -22,10 +22,17 @@ a {
     position: relative;
     padding-top: 3%;
 }
-
+.nav-container {
+    width: 100%;
+}
 .wishes {
     width: 30%;
+    padding: 2% 0 2% 0;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #3282b8;
 }
+.navbar-nav > li{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
