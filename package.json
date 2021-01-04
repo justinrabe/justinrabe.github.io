@@ -1,0 +1,23 @@
+{
+  "name": "justinrabe.github.io",
+  "version": "1.0.0",
+  "description": "Personal CV website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinrabe/justinrabe.github.io.git"
+  },
+  "author": "Justin Rabe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinrabe/justinrabe.github.io/issues"
+  },
+  "homepage": "https://github.com/justinrabe/justinrabe.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
